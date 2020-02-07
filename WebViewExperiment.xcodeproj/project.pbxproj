@@ -14,10 +14,20 @@
 		FADEC80523EC28F3005E1623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADEC80423EC28F3005E1623 /* Assets.xcassets */; };
 		FADEC80823EC28F3005E1623 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADEC80623EC28F3005E1623 /* LaunchScreen.storyboard */; };
 		FADEC81323EC28F3005E1623 /* WebViewExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADEC81223EC28F3005E1623 /* WebViewExperimentTests.swift */; };
+		FADEC81E23EC3060005E1623 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADEC81D23EC3060005E1623 /* NewViewController.swift */; };
+		FADEC85023ECC84F005E1623 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADEC84F23ECC84F005E1623 /* ViewControllerTests.swift */; };
+		FADEC85823ECCC0B005E1623 /* WebViewExperimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADEC85723ECCC0B005E1623 /* WebViewExperimentUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		FADEC80F23EC28F3005E1623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADEC7F023EC28EF005E1623 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADEC7F723EC28EF005E1623;
+			remoteInfo = WebViewExperiment;
+		};
+		FADEC85A23ECCC0C005E1623 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FADEC7F023EC28EF005E1623 /* Project object */;
 			proxyType = 1;
@@ -38,6 +48,11 @@
 		FADEC80E23EC28F3005E1623 /* WebViewExperimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewExperimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADEC81223EC28F3005E1623 /* WebViewExperimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewExperimentTests.swift; sourceTree = "<group>"; };
 		FADEC81423EC28F3005E1623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADEC81D23EC3060005E1623 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		FADEC84F23ECC84F005E1623 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		FADEC85523ECCC0B005E1623 /* WebViewExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewExperimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADEC85723ECCC0B005E1623 /* WebViewExperimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewExperimentUITests.swift; sourceTree = "<group>"; };
+		FADEC85923ECCC0C005E1623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +70,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FADEC85223ECCC0B005E1623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +85,7 @@
 			children = (
 				FADEC7FA23EC28EF005E1623 /* WebViewExperiment */,
 				FADEC81123EC28F3005E1623 /* WebViewExperimentTests */,
+				FADEC85623ECCC0B005E1623 /* WebViewExperimentUITests */,
 				FADEC7F923EC28EF005E1623 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +95,7 @@
 			children = (
 				FADEC7F823EC28EF005E1623 /* WebViewExperiment.app */,
 				FADEC80E23EC28F3005E1623 /* WebViewExperimentTests.xctest */,
+				FADEC85523ECCC0B005E1623 /* WebViewExperimentUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +110,7 @@
 				FADEC80423EC28F3005E1623 /* Assets.xcassets */,
 				FADEC80623EC28F3005E1623 /* LaunchScreen.storyboard */,
 				FADEC80923EC28F3005E1623 /* Info.plist */,
+				FADEC81D23EC3060005E1623 /* NewViewController.swift */,
 			);
 			path = WebViewExperiment;
 			sourceTree = "<group>";
@@ -95,8 +120,18 @@
 			children = (
 				FADEC81223EC28F3005E1623 /* WebViewExperimentTests.swift */,
 				FADEC81423EC28F3005E1623 /* Info.plist */,
+				FADEC84F23ECC84F005E1623 /* ViewControllerTests.swift */,
 			);
 			path = WebViewExperimentTests;
+			sourceTree = "<group>";
+		};
+		FADEC85623ECCC0B005E1623 /* WebViewExperimentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FADEC85723ECCC0B005E1623 /* WebViewExperimentUITests.swift */,
+				FADEC85923ECCC0C005E1623 /* Info.plist */,
+			);
+			path = WebViewExperimentUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +172,24 @@
 			productReference = FADEC80E23EC28F3005E1623 /* WebViewExperimentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FADEC85423ECCC0B005E1623 /* WebViewExperimentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADEC85C23ECCC0C005E1623 /* Build configuration list for PBXNativeTarget "WebViewExperimentUITests" */;
+			buildPhases = (
+				FADEC85123ECCC0B005E1623 /* Sources */,
+				FADEC85223ECCC0B005E1623 /* Frameworks */,
+				FADEC85323ECCC0B005E1623 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADEC85B23ECCC0C005E1623 /* PBXTargetDependency */,
+			);
+			name = WebViewExperimentUITests;
+			productName = WebViewExperimentUITests;
+			productReference = FADEC85523ECCC0B005E1623 /* WebViewExperimentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -151,6 +204,10 @@
 						CreatedOnToolsVersion = 11.3.1;
 					};
 					FADEC80D23EC28F3005E1623 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FADEC7F723EC28EF005E1623;
+					};
+					FADEC85423ECCC0B005E1623 = {
 						CreatedOnToolsVersion = 11.3.1;
 						TestTargetID = FADEC7F723EC28EF005E1623;
 					};
@@ -171,6 +228,7 @@
 			targets = (
 				FADEC7F723EC28EF005E1623 /* WebViewExperiment */,
 				FADEC80D23EC28F3005E1623 /* WebViewExperimentTests */,
+				FADEC85423ECCC0B005E1623 /* WebViewExperimentUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -193,6 +251,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FADEC85323ECCC0B005E1623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -203,6 +268,7 @@
 				FADEC80023EC28EF005E1623 /* ViewController.swift in Sources */,
 				FADEC7FC23EC28EF005E1623 /* AppDelegate.swift in Sources */,
 				FADEC7FE23EC28EF005E1623 /* SceneDelegate.swift in Sources */,
+				FADEC81E23EC3060005E1623 /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +276,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADEC85023ECC84F005E1623 /* ViewControllerTests.swift in Sources */,
 				FADEC81323EC28F3005E1623 /* WebViewExperimentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADEC85123ECCC0B005E1623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADEC85823ECCC0B005E1623 /* WebViewExperimentUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +296,11 @@
 			isa = PBXTargetDependency;
 			target = FADEC7F723EC28EF005E1623 /* WebViewExperiment */;
 			targetProxy = FADEC80F23EC28F3005E1623 /* PBXContainerItemProxy */;
+		};
+		FADEC85B23ECCC0C005E1623 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADEC7F723EC28EF005E1623 /* WebViewExperiment */;
+			targetProxy = FADEC85A23ECCC0C005E1623 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -438,6 +518,44 @@
 			};
 			name = Release;
 		};
+		FADEC85D23ECCC0C005E1623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CG7Z8Q45GH;
+				INFOPLIST_FILE = WebViewExperimentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.conditionallyconvergent.WebViewExperimentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebViewExperiment;
+			};
+			name = Debug;
+		};
+		FADEC85E23ECCC0C005E1623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CG7Z8Q45GH;
+				INFOPLIST_FILE = WebViewExperimentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.conditionallyconvergent.WebViewExperimentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebViewExperiment;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -464,6 +582,15 @@
 			buildConfigurations = (
 				FADEC81B23EC28F3005E1623 /* Debug */,
 				FADEC81C23EC28F3005E1623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADEC85C23ECCC0C005E1623 /* Build configuration list for PBXNativeTarget "WebViewExperimentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADEC85D23ECCC0C005E1623 /* Debug */,
+				FADEC85E23ECCC0C005E1623 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
